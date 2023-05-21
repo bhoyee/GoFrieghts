@@ -1,4 +1,3 @@
-
 """
 Questions:
 1. What are the 5 nearest ports to Singapore's JURONG ISLAND port? (country = 'SG',
