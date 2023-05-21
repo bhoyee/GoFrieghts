@@ -1,6 +1,6 @@
 # Access to PostgreSQL Data Transfer
 
-This script allows you to extract data from an Access database and load it into a PostgreSQL database. It utilizes the `pyodbc` and `psycopg2` libraries to establish connections to the databases.
+This script allows you to extract data from an Access database (GoFrieghts Access Database) and load it into a PostgreSQL database. It utilizes the `pyodbc` and `psycopg2` libraries to establish connections to the databases.
 
 ## Prerequisites
 
