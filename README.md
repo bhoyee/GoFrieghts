@@ -48,4 +48,19 @@ Once the process is complete, you will see a success message indicating that the
 
 - If you encounter any issues, verify that the file name and path for the Access database are correct, and check the environment variables in the `.env` file.
 
-Feel free to modify the script according to your specific requirements.
+
+## Additional Queries
+
+1. **What are the 5 nearest ports to Singapore's JURONG ISLAND port?**
+
+To find the 5 nearest ports to Singapore's JURONG ISLAND port, you can execute a SQL query in your PostgreSQL database. The query should include the columns `port_name` and `distance_in_meters` to provide the desired answer. You can modify the query to use the appropriate table and column names for your database schema.
+
+2. **Which country has the largest number of ports with a cargo_wharf?**
+
+To determine the country with the largest number of ports with a cargo_wharf, you can execute a SQL query in your PostgreSQL database. The query should include the columns `country` and `port_count` to provide the desired answer. Again, modify the query to match your specific table and column names.
+
+3. **You receive a distress call from the middle of the North Atlantic Ocean. The person on the line gave you coordinates of latitude 32.610982 and longitude -38.706256. They asked for the nearest port with provisions, water, fuel_oil, and diesel.**
+
+To find the nearest port with the required provisions and amenities, you can execute a SQL query in your PostgreSQL database. The query should include the columns `country`, `port_name`, `port_latitude`, and `port_longitude` to provide the necessary information. Adjust the query to fit your table and column names.
+
+Feel free to modify the script and SQL queries according to your specific requirements and database schema.
